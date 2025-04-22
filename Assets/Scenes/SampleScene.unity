@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 22397113}
   m_Layer: 0
   m_Name: Top (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -379,6 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97975653}
   - component: {fileID: 97975654}
+  - component: {fileID: 97975655}
   m_Layer: 0
   m_Name: Middle Left
   m_TagString: Untagged
@@ -456,6 +457,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &97975655
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97975652}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &126726722
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +578,7 @@ GameObject:
   - component: {fileID: 128948163}
   m_Layer: 0
   m_Name: Slope Right (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -686,7 +708,7 @@ GameObject:
   - component: {fileID: 132779835}
   m_Layer: 0
   m_Name: Top (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,7 +795,7 @@ GameObject:
   - component: {fileID: 162610507}
   m_Layer: 0
   m_Name: Top (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,7 +882,7 @@ GameObject:
   - component: {fileID: 178940640}
   m_Layer: 0
   m_Name: Top (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -948,7 +970,7 @@ GameObject:
   - component: {fileID: 186849124}
   m_Layer: 0
   m_Name: Top (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1360,7 +1382,7 @@ GameObject:
   - component: {fileID: 220415080}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1534,7 +1556,7 @@ GameObject:
   - component: {fileID: 321478925}
   m_Layer: 0
   m_Name: Top (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1619,6 +1641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362999631}
   - component: {fileID: 362999632}
+  - component: {fileID: 362999633}
   m_Layer: 0
   m_Name: Middle (4)
   m_TagString: Untagged
@@ -1696,6 +1719,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &362999633
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362999630}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &404104966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1765,7 +1809,7 @@ GameObject:
   - component: {fileID: 410605742}
   m_Layer: 0
   m_Name: Top (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1853,7 +1897,7 @@ GameObject:
   - component: {fileID: 427991127}
   m_Layer: 0
   m_Name: Top (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2270,6 +2314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 572857614}
   - component: {fileID: 572857615}
+  - component: {fileID: 572857616}
   m_Layer: 0
   m_Name: Bottom (3)
   m_TagString: Untagged
@@ -2347,6 +2392,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &572857616
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572857613}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &610023107
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,7 +2426,7 @@ GameObject:
   - component: {fileID: 610023110}
   m_Layer: 0
   m_Name: Top (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2727,7 +2793,7 @@ GameObject:
   - component: {fileID: 672672366}
   m_Layer: 0
   m_Name: Top Left
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2835,7 +2901,7 @@ GameObject:
   - component: {fileID: 685533785}
   m_Layer: 0
   m_Name: Top (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2922,7 +2988,7 @@ GameObject:
   - component: {fileID: 697615308}
   m_Layer: 0
   m_Name: Top (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3128,6 +3194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762123640}
   - component: {fileID: 762123641}
+  - component: {fileID: 762123642}
   m_Layer: 0
   m_Name: Middle (1)
   m_TagString: Untagged
@@ -3205,6 +3272,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &762123642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762123639}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &779876247
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,6 +3477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792155916}
   - component: {fileID: 792155917}
+  - component: {fileID: 792155918}
   m_Layer: 0
   m_Name: Bottom (7)
   m_TagString: Untagged
@@ -3466,6 +3555,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &792155918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792155915}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &803898972
 GameObject:
   m_ObjectHideFlags: 0
@@ -3652,7 +3762,7 @@ GameObject:
   - component: {fileID: 930793443}
   m_Layer: 0
   m_Name: Top (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3737,6 +3847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 935304191}
   - component: {fileID: 935304192}
+  - component: {fileID: 935304193}
   m_Layer: 0
   m_Name: Bottom (4)
   m_TagString: Untagged
@@ -3814,6 +3925,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &935304193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935304190}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1018454444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3958,7 @@ GameObject:
   - component: {fileID: 1018454446}
   m_Layer: 0
   m_Name: Top (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3911,6 +4043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087310747}
   - component: {fileID: 1087310748}
+  - component: {fileID: 1087310749}
   m_Layer: 0
   m_Name: Middle (2)
   m_TagString: Untagged
@@ -3988,6 +4121,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1087310749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087310746}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1088715060
 GameObject:
   m_ObjectHideFlags: 0
@@ -3998,6 +4152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088715061}
   - component: {fileID: 1088715062}
+  - component: {fileID: 1088715063}
   m_Layer: 0
   m_Name: Bottom (1)
   m_TagString: Untagged
@@ -4075,6 +4230,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1088715063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088715060}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1103400997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4085,6 +4261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1103400998}
   - component: {fileID: 1103400999}
+  - component: {fileID: 1103401000}
   m_Layer: 0
   m_Name: Middle (3)
   m_TagString: Untagged
@@ -4162,6 +4339,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1103401000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103400997}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1114929538
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,6 +4572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1251458929}
   - component: {fileID: 1251458930}
+  - component: {fileID: 1251458931}
   m_Layer: 0
   m_Name: Bottom (6)
   m_TagString: Untagged
@@ -4451,6 +4650,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1251458931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251458928}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1275962568
 GameObject:
   m_ObjectHideFlags: 0
@@ -4464,7 +4684,7 @@ GameObject:
   - component: {fileID: 1275962571}
   m_Layer: 0
   m_Name: Top (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4746,6 +4966,7 @@ GameObject:
   - component: {fileID: 1317646633}
   - component: {fileID: 1317646632}
   - component: {fileID: 1317646631}
+  - component: {fileID: 1317646635}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -4799,13 +5020,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.4544878, y: 0.5126983}
+    - - {x: -0.4742384, y: 0.61638904}
       - {x: -0.46853542, y: -0.5104884}
-      - {x: 0.4375, y: -0.5}
-      - {x: 0.33894873, y: -0.375}
+      - {x: 0.5115652, y: -0.52468824}
+      - {x: 0.47720337, y: -0.36512482}
       - {x: 0.50929165, y: 0.32179153}
-      - {x: 0.40119743, y: 0.31507754}
-      - {x: 0.21504736, y: 0.5264139}
+      - {x: 0.42588568, y: 0.57677335}
+      - {x: 0.13110733, y: 0.6251671}
   m_UseDelaunayMesh: 0
 --- !u!50 &1317646632
 Rigidbody2D:
@@ -4898,12 +5119,27 @@ Transform:
   m_GameObject: {fileID: 1317646630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.966033, y: -1.4791375, z: 0}
+  m_LocalPosition: {x: -7.966033, y: -1.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1317646635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317646630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d7b99f8c18f384a9f88e0cef1693f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 7
+  JumpForce: 500
+  IsJumping: 1
 --- !u!1 &1335032872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5090,7 +5326,7 @@ GameObject:
   - component: {fileID: 1337790303}
   m_Layer: 0
   m_Name: Slope Right (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5349,6 +5585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438534151}
   - component: {fileID: 1438534152}
+  - component: {fileID: 1438534153}
   m_Layer: 0
   m_Name: Bottom (2)
   m_TagString: Untagged
@@ -5426,6 +5663,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1438534153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438534150}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1481027885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5699,7 +5957,7 @@ GameObject:
   - component: {fileID: 1754637907}
   m_Layer: 0
   m_Name: Top Left (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5787,7 +6045,7 @@ GameObject:
   - component: {fileID: 1832383267}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5895,7 +6153,7 @@ GameObject:
   - component: {fileID: 1881754187}
   m_Layer: 0
   m_Name: Top (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5982,7 +6240,7 @@ GameObject:
   - component: {fileID: 1892539198}
   m_Layer: 0
   m_Name: Top (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6067,6 +6325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1916599908}
   - component: {fileID: 1916599909}
+  - component: {fileID: 1916599910}
   m_Layer: 0
   m_Name: Bottom (5)
   m_TagString: Untagged
@@ -6144,6 +6403,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1916599910
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916599907}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1945572298
 GameObject:
   m_ObjectHideFlags: 0
@@ -6265,7 +6545,7 @@ GameObject:
   - component: {fileID: 1945870972}
   m_Layer: 0
   m_Name: Top (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6439,7 +6719,7 @@ GameObject:
   - component: {fileID: 2090192156}
   m_Layer: 0
   m_Name: Top (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6524,6 +6804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126277514}
   - component: {fileID: 2126277515}
+  - component: {fileID: 2126277516}
   m_Layer: 0
   m_Name: Bottom Left
   m_TagString: Untagged
@@ -6601,6 +6882,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2126277516
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126277513}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
